@@ -14,8 +14,12 @@ Aguarde até que todos os serviços estejam iniciados.
 
 ## Configuração
 
-Após a instalação, navegue até a pasta /api e execute o comando para rodar as migrações do Laravel:
+Após a instalação, navegue até a pasta /api e execute os comandos para rodar as dependências e migrações do Laravel:<br>
+``composer install``<br>
 ``php artisan migrate``
+
+Navegue até a pasta /app e execute o comando para instalar as dependências:<br>
+``npm install``
 
 Caso necessário, utilize algum serviço de tunnel ou SSL para HTTPS para facilitar o cadastro da URL no Mercado Livre.
 
